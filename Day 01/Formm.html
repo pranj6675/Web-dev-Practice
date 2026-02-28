@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello, World!</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
     <header>
-      <u><h3>Student Registration Form </h3></u>
+      <h2>Student Registration Form </h2>
     </header>
     <main>
       <form action="#" method="post">
         <fieldset>
           <legend>Personal Information </legend>
-        <label for="01">Your Name : </label>
-        <input type="text" id="01" name="StName" required><br><br>
+        <label for="stname">Your Name : </label>
+        <input type="text" id="stname" name="StName" required><br><br>
         
-        <label for="02">Father's Name: </label>
-        <input type="text" id="02" name="FtName" required><br><br>
-        <label for="03">Mother's Name : </label>
-        <input type="text" id="03" name="MtName" required><br><br>
-        <label for="04">Date of Birth : </label>
-        <input type="date" id="04" name="DOB" required> <br> <br>
+        <label for="Ftnaem">Father's Name: </label>
+        <input type="text" id="Ftnaem" name="FtName" required><br><br>
+        <label for="Mtname">Mother's Name : </label>
+        <input type="text" id="Mtname" name="MtName" required><br><br>
+        <label for="DOB">Date of Birth : </label>
+        <input type="date" id="DOB" name="DOB" required> <br> <br>
        <p>Gender: </p>
-        <label for="05">Male</label>
-        <input type="radio" id="05" name="Gender" value="Male">
-        <label for="06">Female</label>
-        <input type="radio" id="06" name="Gender" value="Female">
+       <input type="radio" id="Mle" name="Gender" value="Male">
+       <label for="Mle">Male</label>
+       <input type="radio" id="Fm" name="Gender" value="Female">
+       <label for="Fm">Female</label>
        <br><br>
-        <label for="07">Blood Group:</label>
-        <select id="07" name="Blood Group"> 
+        <label for="Bg">Blood Group:</label>
+        <select id="Bg" name="Blood_Group"> 
         <option disabled selected> Select blood group</option>
         <option > A +ve</option>
         <option > A-ve</option>
@@ -37,8 +38,8 @@
         <option > O +ve</option>
         <option > O -ve</option>
         </select> <br><br>
-       <label for="08">Category:</label>
-        <select id="08" name="Category"> 
+       <label for="Ctg">Category:</label>
+        <select id="Ctg" name="Category"> 
         <option disabled selected> Select Category</option>
         <option >General</option>
         <option >OBC</option>
@@ -51,16 +52,16 @@
         <br>
         <fieldset>
           <legend>Contact Information</legend>
-          <label for="09">Email: </label>
-          <input type="email"id="09" name="email id " required>
+          <label for="Eml">Email: </label>
+          <input type="email"id="Eml" name="email id " required>
          <br><br>
-          <label for="10" >Contact:</label>
-          <input type="tel" id="10" name="number" required><br><br>
-          <label for="11">Address : </label><br>
-          <textarea id="11" rows="5" cols="18" name="Add"></textarea>
+          <label for="num" >Contact:</label>
+          <input type="tel" id="num" name="number" required><br><br>
+          <label for="ADD">Address : </label><br>
+          <textarea id="ADD" rows="5" cols="18" name="Add"></textarea>
           <br><br>
-          <label for="12">City:</label>
-          <select id="12" name="city">
+          <label for="City">City:</label>
+          <select id="City" name="city">
             <option disabled selected>Select City</option>
             <option>Mumbai </option>
             <option>Goa</option>
@@ -73,70 +74,70 @@
         </fieldset>
         <fieldset>
           <legend>Academic Information </legend>
-          <label for="13">Course: </label>
-          <select id="13" name="Course" >
+          <label for="Crs">Course: </label>
+          <select id="Crs" name="Course" >
             <option>BCA</option>
             <option>Btech</option>
             <option>MCA</option>
             <option>Mtech</option>
           </select><br><br>
-          <label for="14">Year: </label>
-          <select id="14" name="Course" >
+          <label for="Year">Year: </label>
+          <select id="Year" name="CourseYr" >
             <option disabled selected>Select Year</option>
             <option>1st</option>
             <option>2nd</option>
             <option>3rd</option>
             <option>4th</option> </select>
             <br><br>
-          <label for="15">Highest Qualification: </label>
-          <select id="15" name="Hq" >
-            <option disabld selected>Select Qualification</option>
-            <option disabled seleced>Select Qualification</option>
+          <label for="HQ">Highest Qualification: </label>
+          <select id="HQ" name="Hqual" >
+            <option disabled selected>Select Qualification</option>
             <option>12th</option>
             <option>10th</option>
             <option>Undergraduate</option>
             <option>Post Graduate</option>
             </select>
             <br><br>
-            <label for="16">Percentage: </label>
-            <input type="number" id="16" name="%">
+            <label for="%ge">Percentage: </label>
+            <input type="number" id="%ge" name="%">
             <br><br>
             </fieldset> <br><br>
             <fieldset>
               <legend>Skills:</legend>
-              <label for="17">•Programming </label>
-              <input  id="17"type="checkbox" name="Skill"><br>
-              <label for="18">•Data analyst  </label>
-              <input id="18" type="checkbox" name="Skill"><br>
-              <label for="19">•Graphic Designing</label>
-              <input id="19" type="checkbox" name="Skill"><br>
-              <label for="20">•Web Development</label>
-              <input id="20" type="checkbox" name="Skill">
+              <label for="pgm">•Programming </label>
+              <input  id="pgm"type="checkbox" name="Skill"><br>
+              <label for="Da">•Data analyst  </label>
+              <input id="Da" type="checkbox" name="Skill"><br>
+              <label for="GD">•Graphic Designing</label>
+              <input id="GD" type="checkbox" name="Skill"><br>
+              <label for="WD">•Web Development</label>
+              <input id="WD" type="checkbox" name="Skill">
             </fieldset> <br>
             <fieldset>
               <legend>Account Information </legend>
-              <label for="21">Username: </label>
-              <input type="text" name="Username" id="21" required >
-              <label for="22">Password: </label>
-              <input type="password" name="pass" id="22" required>
-                <label for="22">Confirm Password: </label>
-              <input type="password" name="cnf pass" id="22" required>
+              <label for="Um">Username: </label>
+              <input type="text" name="Username" id="Um" required >
+              <label for="PAss">Password: </label>
+              <input type="password" name="pass" id="PAss" required>
+                <label for="cnfp">Confirm Password: </label>
+              <input type="password" name="cnf pass" id="cnfp" required>
               
             </fieldset>
             <fieldset>
               <legend>Declaration </legend>
-              <input type="checkbox" id="23" name="cb" required>
-              <label for="23"> I hereby declare that the above information is true.</label>
+              <input type="checkbox" id="Declaration" name="cb" required>
+              <label for="Declaration"> I hereby declare that the above information is true.</label>
            <br><br>
-           <button>Submit </button>
+           <button type="submit">Submit </button>
            <br> <br><br>
-           <button>Reset</button>
+           <button type="reset">Reset</button>
             </fieldset>
+            </form>
            </main>
            <footer>
              <p> All rights reserved &copy; Pranjal Tiwari</p>
            </footer>
-
-
-  </body>
+        
+    
+</body>
 </html>
