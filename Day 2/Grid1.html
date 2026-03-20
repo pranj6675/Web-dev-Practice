@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website - Good</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: linear-gradient(
+        to right,
+        rgb(149, 149, 178),
+        rgb(109, 143, 109)
+      );
+    }
+    .head {
+      display: flex;
+      justify-content: space-between;
+    }
+    .head .logo img {
+      height: 30px;
+      width: 90px;
+      margin: 5px;
+      padding: 5px;
+    }
+    .head .navbar {
+      margin: 10px;
+      padding: 5px;
+    }
+    .head .navbar ul a:hover {
+      background-color: rgb(194, 168, 168);
+      /* color: white; */
+    }
+    .head .navbar ul a li {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: black;
+      display: inline;
+      margin: 10px;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h3 {
+      text-align: center;
+      text-decoration: underline;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      margin: 20px;
+      margin-bottom: 5px;
+    }
+    .hero p {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      text-align: center;
+    }
+    .slots {
+      display: flex;
+      margin-top: 40px;
+      margin-left: 20px;
+      gap: 20px;
+    }
+    .slots .card {
+      border: 5px solid rgb(121, 35, 175);
+      border-radius: 30px;
+      size: 250px;
+      height: 340px;
+    }
+    .slots .card h2 {
+      text-align: center;
+      text-decoration: underline;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      margin: 5px;
+    }
+    .slots .card img {
+      margin-left: 35px;
+      border: 4px solid rgb(152, 5, 5);
+      align-items: center;
+      justify-content: center;
+      width: fit-content;
+    }
+    .slots .card h4 {
+      text-align: center;
+      font-weight: 800px;
+      font-size: x-large;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(10, 10, 10);
+    }
+    .slots .card p {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 8px;
+      text-align: center;
+    }
+    .slots .card button {
+      background-color: rgb(25, 13, 81);
+      color: azure;
+      margin-left: 85px;
+      cursor: pointer;
+    }
+    .copyright {
+      text-align: center;
+      margin-top: 35px;
+      display: block;
+      background-color: rgb(5, 5, 5);
+      color: white;
+    }
+    .hero button {
+      background-color: rgb(75, 19, 215);
+      color: white;
+      margin-left: 46%;
+      margin-top: 20px;
+      font-size: x-large;
+    }
+  </style>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="head">
+        <div class="logo">
+          <img src="/image.png" alt="logo" />
+        </div>
+        <div class="navbar">
+          <ul>
+            <a href="#"> <li>Home</li> </a>
+            <a href="#"> <li>About</li> </a>
+            <a href="#"> <li>Menu</li> </a>
+            <a href="#"> <li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <h3>Real website Page for Practice !</h3>
+        <br /><br />
+        <p>
+          This page is made for practic of web development html and css both
+          together . It consist the navbar with the paragraph hero section and
+          it contains the 4 card slot in which every cars are of same shape and
+          sixe with similar looking .
+        </p>
+        <button>Explore more</button>
+      </section>
+      <div class="slots">
+        <div class="card">
+          <h2>Title</h2>
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.pzlzSEcsabkkYwH_23OSQAHaHa?pid=Api&P=0&h=180"
+          />
+          <h4>Chintu pandey</h4>
+          <p>This is a dog of white color looking very cute and attractive.</p>
+          <button>Read more</button>
+        </div>
+        <div class="card">
+          <h2>Title</h2>
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.pzlzSEcsabkkYwH_23OSQAHaHa?pid=Api&P=0&h=180"
+          />
+          <h4>Chintu pandey</h4>
+          <p>This is a dog of white color looking very cute and attractive.</p>
+          <button>Read more</button>
+        </div>
+        <div class="card">
+          <h2>Title</h2>
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.pzlzSEcsabkkYwH_23OSQAHaHa?pid=Api&P=0&h=180"
+          />
+          <h4>Chintu pandey</h4>
+          <p>This is a dog of white color looking very cute and attractive.</p>
+          <button>Read more</button>
+        </div>
+        <div class="card">
+          <h2>Title</h2>
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.pzlzSEcsabkkYwH_23OSQAHaHa?pid=Api&P=0&h=180"
+          />
+          <h4>Chintu pandey</h4>
+          <p>This is a dog of white color looking very cute and attractive.</p>
+          <button>Read more</button>
+        </div>
+      </div>
+    </main>
+    <footer class="copyright">
+      All rights reserved &copy; | Vicky Tiwari.
+    </footer>
+  </body>
+</html>

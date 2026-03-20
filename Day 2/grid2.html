@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid2</title>
+  </head>
+  <style>
+    body{
+         background-image: linear-gradient(to right , rgb(80, 155, 80) , rgb(82, 82, 214));
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      color: white;
+      
+      box-sizing: border-box;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr  3fr ;
+      margin: 10px; 
+      gap: 10px; padding: 10px;
+      min-height: 100vh;
+      border-radius: 7px;
+    }
+    .navbar {
+        grid-column: 1/-1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        height: 45px;
+      /* width: auto; */
+      /* grid-column: 1/-1; */
+      /* z-index: 1; */
+    }
+    .navbar a {
+      /* display: flex; */
+      text-decoration: none;
+      color: white;
+      /* margin: 5px; */
+       padding: 8px 14px; border-radius: 5px;
+      /* align-items: center; */
+    }
+    .navbar a:hover{
+        background-color: rgb(149, 15, 15);
+    }
+    .sb {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      background-color: rgb(67, 132, 91);
+      border-radius: 6px;
+      /* border: 3px solid black; */
+      /* align-items: center; */
+      /* opacity: 70%; */
+      /* margin: 5px;  */
+      padding: 15px;
+      /* justify-content: center; */
+    }
+    .sb a{
+        text-decoration: none;
+        background-color: rgb(48, 114, 53);
+        /* margin: 5px; */
+         padding: 8px;
+        color: white;
+        text-align: center;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+    }
+    .sb a:hover{
+        background-color: rgb(228, 29, 29);
+    }
+    .content{
+     padding: 20px;
+     
+    }
+    .content h3{
+        /* text-decoration: underline; */
+        /* font-weight: 900; */
+        font-size: 24px;
+        margin: 20px 0 10px;
+        text-decoration: underline;
+    }
+    .content button{
+        display: block;
+        margin: 20px auto; 
+        /* margin-left: 190px; */
+        padding: 10px 20px;
+        background-color: rgb(41, 105, 63);
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
+
+    }
+    .content button:hover{
+        background: #1e4d2e;
+    }
+    .ftr {
+        grid-column: 1/-1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        /* width: 100%; */
+        /* grid-column: 1/3; */
+        height: 40px;
+    }
+   
+
+  </style>
+  <body>
+    <!-- Header part  -->
+    <div class="container">
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+      </div>
+      <!-- SIDEBAR ANJD CONTENT PART  -->
+     
+        <div class="sb">
+          <a href="#">Home</a>
+          <a href="#">Profile</a>
+          <a href="#">Orders</a>
+          <a href="#">Downloads</a>
+          <a href="#">History</a>
+          <a href="#">Logout</a>
+          <a href="#">App Updates</a>
+        </div>
+        <div class="content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+            ipsum sapiente. Praesentium officiis fuga dignissimos optio dolorum
+            quos ex reprehenderit, ducimus dolore aspernatur adipisci et eum
+            distinctio, odio dolor iste in iure autem natus nulla. Adipisci
+            possimus velit perferendis facilis distinctio, magnam earum porram
+            ipsum, quia placeat consectetur facere veritatis veniam, fugiat
+            maiores sapiente reprehenderit minima. Alias veritatis, laborum,
+            quasi adipisci, praesentium pariatur natus impedit veniam
+            consequatur sequi porro temporibus eum ullam voluptate! Doloribus
+            error non numquam, suscipit quos expedita?
+          </p>
+          <br />
+          <h3>Page Review</h3>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            recusandae earum pariatur assumenda enim sunt libero consequatur
+            velit magnam adipisci delectus labore, moluri ut soluta, porro
+            explicabo facilis veritatis? Voluptas id eius quidem consectetur
+            sequi optio praesentium? Illo blanditiis ea, itaque deleniti
+            repellendus voluptates, fugiat veritatis pariatur sit praesentium
+            voluptatibus quidem distinctio eaque tempore possimus sed
+            laudantium. Repellat, reiciendis. Pariatur facere, eligendi,
+            consequatur dolor obcaecati eaque officiis, illum aliquid soluta
+            iure nam.
+          </p>
+          <button>Learn more</button>
+        </div>
+    
+      <footer class="ftr">
+        <p>All RIGHTS RESERVED &COPY | PRANJAL TWARI</p>
+      </footer>
+    </div>
+  </body>
+</html>
